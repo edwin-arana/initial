@@ -1,0 +1,123 @@
+body {
+			background-image: url('images/WallpaperDog-790508.jpg');
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-attachment: fixed;
+			font-family: 'Inter', sans-serif;
+			
+		}
+
+		p {
+
+		   top: 10px;
+		   text-align: center;
+		   color: white;
+
+		}
+
+		ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			padding: 15px;
+
+		}
+
+		nav {
+
+			text-decoration: none;
+			color: blue;
+			background-color: darkslategray;
+			text-align: center;
+			margin-left: 45px;
+			margin-right: 25px;
+			opacity: 85%;
+			font-size: 18px;
+  	    }
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+nav ul li {
+	display: inline;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+nav a {
+	text-decoration: none;
+	color: blue;
+}
+nav a:hover {
+	color: white;
+}
+  	    a:link {
+
+  	    	text-decoration: none;
+  	    	color: blue;
+  	    }
+  	    a:hover {
+
+   			color: white;
+   		}
+
+   		a:visited {
+
+   			color: white;
+   		}
+
+   		.gridcontainer > div {
+
+   			display: grid;
+   			justify-content: center;
+   		}
+
+
+   		}
+
+   		.menu  > div {
+
+   			grid-area: menu;
+
+   		}
+
+		.text {
+
+		grid-area: main;
+		text-align: center;
+		background-color: rgb(14, 77, 121, 90%);
+		padding: 30px;
+		color: white;
+		margin: 9%;
+		margin-top: 15px;
+		margin-bottom: 15px;
+		
+
+
+		}
+
+		div.header {
+		grid-area: header;
+		font-size: 45px;
+		padding: 5px;
+		top: 5px;
+		color: #023f5a;
+		font-family: 'PT Serif', serif;
+		font-weight: bold; 
+		text-align: center;
+
+		}
+
+		.footer  {
+
+		bottom: 5px;
+		text-align: center;
+		background-color: darkslategray;
+		padding: 5px;
+		width: fit-content;
+		margin: 0px auto;
+		opacity: 85%;
+		color: white;
+
+		} 

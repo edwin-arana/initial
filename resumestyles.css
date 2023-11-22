@@ -1,0 +1,78 @@
+body {
+			background-image: url(images/WallpaperDog-792973.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-attachment: fixed;
+			text-align: center;
+			color: white;
+			}
+
+h1 {
+			text-align: center;
+			font-size: 45px;
+			padding: 5px;
+			position: relative;
+			top: 5px;
+		}
+
+p {
+
+		   position: relative;
+		   top: 10px;
+		   text-align: center;
+		}
+
+ul {
+			text-align: center;
+			list-style-type: none;
+		}
+
+		.resumeheader {
+			display: inline-block;
+			border: 5px;
+			margin-bottom: 10px;
+			padding: 5px;
+			width: 20%;
+			background-color: rgb(29, 92, 93, 20%);
+			font-size: 25px;
+			border-style: none;
+		}
+		
+		.workexperience {
+			display: inline-block;
+			border: 5px;
+			padding: 30px;
+			padding-top: 20px;
+			padding-bottom: 20px;
+			margin-bottom: 10px;
+			border-style: none;
+			background-color: rgb(29, 92, 93, 75%);
+			max-width: 60%;
+
+		}
+
+		.education {
+			display: inline-block;
+			border: 5px;
+			border-style: none;
+			padding: 10px;
+			padding-top: 20px;
+			padding-bottom: 20px;
+			width: 40%;
+			max-width: 40%;
+			background-color: rgb(29, 92, 93, 75%);
+		}
+
+		.footer {
+			position: relative;
+			bottom: 5px;
+			text-align: center;
+			display: inline-block;
+			background-color: rgb(29, 92, 93, 30%);
+			padding: 5px;
+		}
+		
+		.educationheader {
+
+			font-size: 20px;
+		}
